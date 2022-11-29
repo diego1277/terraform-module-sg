@@ -13,7 +13,7 @@ Binary version ```v1.3.2```
 Set default configuration
 ```
 module "sg" {
-   source = "https://github.com/diego1277/terraform-module-sg.git"
+   source = "github.com/diego1277/terraform-module-sg.git"
    name = "my_sg"
    description = "my dsc"
    vpc_id = "my vpc id"
@@ -22,7 +22,7 @@ module "sg" {
 Enable ingress custom rules
 ```
 module "sg" {
-   source = "https://github.com/diego1277/terraform-module-sg.git"
+   source = "github.com/diego1277/terraform-module-sg.git"
    name = "my_sg"
    description = "my dsc"
    vpc_id = "my vpc id"   
